@@ -1,4 +1,4 @@
-package com.EchoPlugin.scheer;
+package com.first.plugin;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
