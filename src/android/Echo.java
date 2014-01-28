@@ -1,4 +1,4 @@
-package com.first.plugin;
+package com.HelloPlugin.test;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
@@ -7,7 +7,7 @@ import org.json.JSONObject;
 
 import android.util.Log;
 
-public class EchoPlugin extends CordovaPlugin {
+public class Echo extends CordovaPlugin {
 	public static final String ACTION_ECHO = "Echo";
 
 	@Override
