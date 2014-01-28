@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="com.first.plugin"
+           id="com.HelloPlugin.test"
       version="0.1.0">
     <name>Echo</name>
     <description>Sample PhoneGap Echo Plugin</description>
@@ -17,10 +17,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Echo">
-                <param name="android-package" value="org.cordova.plugin.Echo"/>
+                <param name="android-package" value="com.HelloPlugin.test"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Echo.java" target-dir="src/org/cordova/plugin" />      
+        <source-file src="src/android/Echo.java" target-dir="src/com/HelloPlugin/test" />      
      </platform>          
 </plugin>
